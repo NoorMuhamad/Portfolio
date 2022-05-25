@@ -614,6 +614,9 @@ button:focus {
   padding-bottom: 50px;
   justify-content: center;
 }
+.resume img{
+  width: 850px;
+}
 
 .resume-left {
   padding-right: 80px !important;
