@@ -31,10 +31,10 @@ jobs:
            # Npm command
            cmd: install
       - name: Creating Build
-        run: npm build
+        run: yarn build
         
       - name: installing surge
-        run: npm install -g surge
+        run: yarn install -g surge
         
       - name: Deploying on Surge
         run: surge ./build http://noor-muhammad.surge.sh/ --token ${{secrets.SECRET_KEY}}  
