@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import pdf from "../../Assets/NOORRASHEED_CV_MERN.pdf";
 import Resume from "../../Assets/resume.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -34,7 +34,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img alt="resume_image" src={Resume}/>
+          <img alt="resume_image" src={Resume} />
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>

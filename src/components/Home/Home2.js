@@ -20,10 +20,10 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Well, I’ve been working on web development for two years now.
-              I would introduce myself in seven words. Passionate coder, responsible father, best colleague ever. 
+              I would like to introduce myself in seven words. Passionate coder, responsible father, best colleague ever. 
               That pretty much sums it up, though at least the last one my former colleagues have to confirm. 
-              I try to do a good job in all roles I have in life, and I enjoy the process immensely. 
-              Do you want me to talk about my coding skills and experience now, or will we discuss it....
+              I put my best efforts with pleasure in all roles I have in life, and I enjoy the process immensely. 
+              Do you want me to talk about my coding skills and experience now, or will we discuss it ?
               <br />
               <br />I am fluent in classics like
               <i>
@@ -31,7 +31,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's is building to new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -41,7 +41,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              I also apply my passion for developing products
               with <b className="purple">Node.js</b> & <b className="purple">Nest.js</b> and
               <i>
                 <b className="purple">
