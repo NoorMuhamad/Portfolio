@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import covid from "../../Assets/Projects/covid.png";
+import redQueen from "../../Assets/Projects/redQueen.png";
+import feeding from "../../Assets/Projects/feeding.png";
+import M3 from "../../Assets/Projects/m3u.png";
+import miss from "../../Assets/Projects/missAmerican.png";
+import khel from "../../Assets/Projects/khel-khel.png";
 
 function Projects() {
   return (
@@ -23,62 +23,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={M3}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="M3U-editor (Laravel)"
+              description="That a service based project in which I worked on generating playlist by link just like we can insert a link it fetched all stuff related to that link. and also divided into user subscription like diamond gold silver category and arranged their prices accordingly to user subscription. it has two side user side and admin side, all stuff related to that playlist and regrading to  their billing control by admin. Also integrate the paypal payment method in that project."
+              link="https://m3u-editor.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={khel}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Khel-Khilari (Angular+Nest.js)"
+              description="Khel Khilari will be an online venue finder that will help users find nearby sports venue according to their requirements like price range, this will provide ease to all sport enthusiasts and players who aren’t aware of venues near them. Knowledge areas of this project are Application development and Website development. It will also offer exclusive sales and marketing services to sports venue owners to generate revenue. In addition to that it will also provide features such as team formation, match making, live scoring, umpire hiring and rating."
+              link="https://github.com/NoorMuhamad/khel-khilari-web"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={feeding}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="FeedingPlatform (Laravel)"
+              description="That project is feeding platform a america NGO who worked into Africa and middle east for feeding people its charity based application.I build this application using laravel  on that project i am also 6 to 7 seven months  it has different portal lives that donor super admin and manager all these portal has their own functionalities."
+              link="https://feedingplatform.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={covid}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Covid-19 API (React.js)"
+              description="That Project is all about to understand the condition of country and also fetch the data from the api and show into project and also understand the concept and also deploy on the Surge.sh "
+              link="https://github.com/NoorMuhamad/project02_Covid19"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={miss}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Miss America (Laravel)"
+              description="Miss America is online portal to automate the american miss and mao teen selection. This project has 4 portal super state local and candidate portal local managing local competitions and state managing state portal and national managing main mao and miss selection and in candidate portal every candidate can see his cooperation his state and every stuff related to his miss america way and in this project  also integrated STRIPE API payment."
+              link="http://phplaravel-704464-2332106.cloudwaysapps.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={redQueen}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Red Queen (React + Web animation)"
+              description="Red Queen project understand the concept of animation and also implement the a concept of the Web Animations API allows for synchronizing and timing changes to the presentation of a Web page, i.e. animation of DOM elements. It does so by combining two models: the Timing Model and the Animation Model."
+              link="https://github.com/NoorMuhamad/Red-Queen-Project-04-A"
             />
           </Col>
         </Row>
